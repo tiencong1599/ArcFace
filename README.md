@@ -56,4 +56,25 @@ python main.py
 ```
 ## Usage
 After launch GUI of ArcFace, we have this interface.
+![Image](https://github.com/tiencong1599/ArcFace/datasets/images/GUI.jpg)
+## Elements
 
+* Button:
+    - Capture: 
+        - We have to input both text input(name, id) and click Capture.
+        - If exist face in frame and after 10 frames. When the red rectangle appear, it captures a frame.
+        - The numbers of image of each staff are 5 images. 
+        - After capturing 5 images of employee, it saves those images into folder with Employee' name.
+      
+    - Re-train: Re train model after re-embedding all vectors.
+    - Re-embedding: Re-embedding after adding new employee.
+    - Record: Start to recognize with camera stream.
+    - Exit: Exit the apps.
+    
+* Widget:
+    - Left widget: Capture widget for registering new employee. 
+    - Right widget: Record widget for recognizing with camera stream.
+    
+* Text Input:
+    - Name: Name of employee.
+    - Id: Identification of employee.
