@@ -1,0 +1,13 @@
+tensorflow=='2.2.0'
+keras
+mxnet
+sklearn
+easydict
+opencv-python
+matplotlib
+cmake
+scikit-image
+dlib
+imutils
+Pillow
+PyQt5
